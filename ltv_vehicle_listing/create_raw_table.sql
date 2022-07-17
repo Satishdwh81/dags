@@ -1,0 +1,23 @@
+CREATE TABLE LTV.stage_public_vehicle_list (
+  id varchar(100),
+  vin varchar(100),
+  price varchar(100),
+  miles varchar(100),
+  stock_no varchar(100),
+  year varchar(4),
+  make varchar(100),
+  model varchar(100),
+  trim varchar(100),
+  body_type varchar(100),
+  vehicle_type varchar(100),
+  drivetrain varchar(100),
+  transmission varchar(100),
+  fuel_type varchar(100),
+  engine_size varchar(100),
+  engine_block varchar(100),
+  seller_name varchar(1000),
+  street varchar(100),
+  city varchar(100),
+  state varchar(100),
+  zip varchar(100)
+);

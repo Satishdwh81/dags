@@ -1,0 +1,12 @@
+{
+"charset": "utf8",
+"cursor": "sscursor",
+"local_infile": true,
+"unix_socket": "/tmp/mysql.sock",
+ "ssl":
+"{
+"cert": "/usr/local/mysql-8.0.28-macos11-x86_64/data/ca.pem",
+"ca": "/usr/local/mysql/data/server-cert.pem",
+"key": "/usr/local/mysql/data/client-key.pem"
+}"
+}
